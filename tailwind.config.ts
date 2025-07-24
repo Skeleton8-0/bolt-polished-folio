@@ -68,6 +68,15 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			spacing: {
+				'section': 'var(--section-spacing)'
+			},
+			boxShadow: {
+				'card': 'var(--card-shadow)'
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-gradient)'
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
